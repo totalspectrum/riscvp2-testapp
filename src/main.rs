@@ -7,6 +7,6 @@ use riscvp2_rt::*;
 pub fn main() -> ! {
     loop {
       pintoggle(57);
-      delay(40_000_000);
+      delay_cycles(40_000_000);
     }
 }
